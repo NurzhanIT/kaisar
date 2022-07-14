@@ -1,0 +1,43 @@
+.body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  /* min-width: 1170px; */
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.make-order {
+  width: 100%;
+  height: 717px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+}
+.order-elements {
+  display: flex;
+  width: 85%;
+}
+.order-list h1 {
+  margin: 50px;
+}
+.order-list p {
+  margin: 0 50px 65px;
+}
+.questions-ansewrs {
+  width: 100%;
+  height: 651px;
+}
+.back-boxes-ten {
+  background-color: #5054b4;
+  background-size: cover;
+  height: 215px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  z-index: -1;
+}

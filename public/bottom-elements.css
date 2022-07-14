@@ -1,0 +1,179 @@
+.body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  /* min-width: 1170px; */
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.bottom-services {
+  width: 100%;
+  height: 4300px;
+  /* background-color: white; */
+  background-size: cover;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  position: relative;
+}
+
+.bottom-services-elements {
+  width: 100%;
+}
+
+.heading {
+  width: 50%;
+  height: 216px;
+  position: relative;
+}
+.heading-title {
+  position: absolute;
+  top: 50%;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.service-items {
+  width: 100%;
+  display: flex;
+  padding-bottom: 50px;
+  justify-content: space-between;
+}
+
+.info-area {
+  width: 50%;
+  height: 75%;
+  display: flex;
+  margin-top: 150px;
+}
+
+.number-of-area {
+  font-size: 112px;
+  color: #4a50b2;
+  display: inline-block;
+  width: auto;
+}
+
+.text-of-area {
+  /* font-size: 16px; */
+
+  width: 69%;
+  /* display: inline-block; */
+  position: relative;
+  margin-left: 20px;
+}
+.text-of-area-text {
+  font-size: 16px;
+  display: inline-block;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #4a50b2;
+  line-height: 1.5;
+}
+
+.info-area.evens {
+  margin-left: 80px;
+}
+
+.back-boxes {
+  background-color: #f8ece4;
+  background-size: cover;
+  height: 175px;
+  width: 100%;
+  position: absolute;
+  top: 8.5%;
+  z-index: -1;
+}
+
+.back-boxes.three {
+  top: 18.3%;
+}
+.back-boxes.four {
+  top: 28%;
+}
+.back-boxes.five {
+  top: 38%;
+}
+.back-boxes.six {
+  top: 47.5%;
+}
+.back-boxes.svn {
+  top: 57.6%;
+}
+.back-boxes.eght {
+  top: 67.5%;
+}
+.back-boxes.nine {
+  top: 77.5%;
+}
+.back-boxes.two {
+  top: 87.2%;
+}
+
+.bottom-button {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.button-href {
+  background-color: #ff7c2c;
+  width: 236px;
+  height: 46px;
+  font-size: 14px;
+
+  font-weight: 700;
+  text-align: center;
+  padding-top: 12px;
+  color: white;
+  text-decoration: none;
+}
+
+/* trust list */
+
+.trust-us {
+  width: 100%;
+  background-color: #4a50b2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  height: 564px;
+}
+.trust-list-elements {
+  width: 100%;
+}
+.trust-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.heading-word {
+  font-size: 36px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.imges-of-trust-list {
+  width: 270px;
+  height: 270px;
+  box-sizing: border-box;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imges-of-trust-list img {
+  width: 200px;
+  height: 200px;
+}
