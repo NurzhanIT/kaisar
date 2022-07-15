@@ -1,0 +1,125 @@
+@media only screen and (max-width: 1200px) {
+  /* .container {
+    max-width: 970px !important;
+  } */
+  .intro-text p {
+    font-size: 30px !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .purposes-box {
+    top: 60%;
+  }
+  .info-box {
+    margin-left: 10px;
+  }
+  .carousels img {
+    height: 30%;
+    width: 30%;
+  }
+  .attestations {
+    height: 91%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .intro-contacts {
+    display: block;
+  }
+  /* .service {
+    height: 600px;
+  } */
+  .text-in-card {
+    font-size: 12px;
+  }
+  .service {
+    margin: 0 0 25px;
+  }
+  .purposes-text {
+    font-size: 80%;
+  }
+  .heading-title {
+    width: 800px;
+  }
+  .text-of-area-text {
+    font-size: 80%;
+  }
+  /* .service-items img {
+    height: 50%;
+    width: 70%;
+  } */
+  .order-list h1 {
+    font-size: 25px;
+    margin: 20px 50px 20px;
+  }
+  .form {
+    margin-left: 50px;
+  }
+  .trust-us {
+    height: 1200px;
+  }
+  .trust-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center space-between;
+    align-items: center;
+  }
+  .imges-of-trust-list {
+    height: 100%;
+    width: 70%;
+  }
+  .imges-of-trust-list img {
+    width: 70%;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .intro-text p {
+    font-size: 25px !important;
+  }
+  .intro-contacts {
+    display: block;
+    width: 200px;
+  }
+
+  .service {
+    height: 700px;
+    margin: 0 0 70px;
+  }
+  .services-elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* column-count: 2; */
+    align-items: center;
+
+    /* width: 100%;
+    height: 100%; */
+  }
+  .card {
+    margin: 20px 0 !important;
+  }
+  .picture-body_info {
+    display: none;
+  }
+  .order-elements img {
+    height: 60%;
+    width: 60%;
+    padding-top: 0px;
+  }
+  .order-list h1 {
+    font-size: 16px;
+    margin: 5px 50px 5px;
+  }
+  .back-boxes-ten {
+    height: 120px;
+  }
+  .order-list p {
+    font-size: 12px;
+  }
+  .form {
+    margin-left: 20px;
+    margin-bottom: 90px;
+  }
+}
+@media only screen and (max-width: 320px) {
+}
